@@ -15,7 +15,7 @@ imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA?
 */
-public class Main {
+public class ExercicioUm {
     public static void main(String[] args) {
         final int INDICE=13;
         int soma=0;
@@ -29,3 +29,4 @@ public class Main {
         System.out.println(soma);
     }
 }
+
