@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ed2a8f8-d0bd-4206-9776-6ee56876e7b9" name="Changes" comment="Adicionando segunda resposta do desafio de código">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExercicioDois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExercicioCinco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExercicioQuatro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exerciciotres/ExercicioTres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exerciciotres/ObjetoVenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/exemplo_tres.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExercícioUm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExercicioDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExercicioDois.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +53,42 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.ExercicioDois">
+    <configuration name="ExercicioCinco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExercicioCinco" />
+      <module name="ProcessoTarget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExercicioDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ExercicioDois" />
+      <module name="ProcessoTarget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exerciciotres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercicioQuatro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExercicioQuatro" />
       <module name="ProcessoTarget" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +105,7 @@
       <module name="ProcessoTarget" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.exerciciotres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +116,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExercicioDois" />
+        <item itemvalue="Application.ExercicioCinco" />
+        <item itemvalue="Application.ExercicioQuatro" />
         <item itemvalue="Application.ExercícioUm" />
       </list>
     </recent_temporary>
@@ -94,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677620453568</updated>
-      <workItem from="1677620454900" duration="3582000" />
+      <workItem from="1677620454900" duration="12448000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando primeira resposta do desafio de código">
       <created>1677620731781</created>
@@ -103,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677620731781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionando segunda resposta do desafio de código">
+      <created>1677628104977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677628104977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +156,15 @@
     <MESSAGE value="Adicionando primeira resposta do desafio de código" />
     <MESSAGE value="Adicionando segunda resposta do desafio de código" />
     <option name="LAST_COMMIT_MESSAGE" value="Adicionando segunda resposta do desafio de código" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

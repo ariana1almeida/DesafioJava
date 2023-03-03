@@ -20,12 +20,12 @@ public class ExercicioDois {
         System.out.println(fibonacci(33));
     }
 
-    public static boolean fibonacci(Integer numeroASerEncontrado){
+    public static boolean fibonacci(Integer numeroASerEncontrado) {
 
         int n = 10, primeiroNumero = 0, segundoNumero = 1;
         List<Integer> fibonacci = new ArrayList<>(List.of(primeiroNumero, segundoNumero));
 
-        for (int i=1; i<= n; i++) {
+        for (int i = 1; i <= n; i++) {
 
             int proximoNumero = primeiroNumero + segundoNumero;
             primeiroNumero = segundoNumero;
